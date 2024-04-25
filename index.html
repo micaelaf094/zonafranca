@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+  
+  <title>Zona Franca</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <div class="title">
+    <h1 class="animate__animated animate__fadeInDown">Zona Franca Coffee & Beer</h1>
+ </div>
+
+<header class="topnav" id="myTopnav">
+  
+  <a href="#home" class="active">
+    <i class="fa-solid fa-house-chimney"></i>
+    <span>Inicio</span>
+  </a>
+  <a href="#news">
+    <i class="fa-solid fa-book-open"></i>
+    <span>Menú</span>
+  </a>
+  <a href="#contact">
+    <i class="fa-solid fa-envelope"></i>
+    <span>Contacto</span>
+  </a>
+  <a href="#about">
+    <i class="fa-solid fa-user"></i>
+    <span>Iniciar Sesión</span>
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</header>
+<main>
+  <section class="container">
+    <p> De día somos cafetería y al caer la noche cervecería artesanal
+    
+    <p>Con una gran variedad de platillos y tragos para degustar en reuniones con amigos, desayunos y meriendas.</p>
+    
+    <p>Ubicados en la esquina más parisina de la ciudad de Rosario.</p>
+    <p>El mejor ambiente para toda ocasión.</p>
+    </p>
+  
+  </section>
+  <br>
+  <div class="imagenes">
+    <img src="img/Café2.jpg" alt="cafe"  class="im">
+    <img src="img/cerveza.jpeg" alt="reunion" class="im2">
+    <img src="img/menu.jpeg" alt="menu" class="im3">
+  </div>
+  <br><br>
+  <section>
+    <div class="form">
+    <h2>¡Ayudanos a seguir mejorando!</h2>
+    <h3>Dejanos tu comentario</h3>
+    <form>
+        <input type="text" name="comentario" id="comentario" placeholder="Tu comentario" ><br>
+        <input type="submit" value="Enviar" >
+        <input type="reset" value="Limpiar">
+        
+    </form></div>
+  </section>
+   
+  </main>
+
+<footer class="foot">
+  <a href="phone">
+    <i class="fa-solid fa-phone"></i>
+  <span>Teléfono</span>
+  <a href="contacto">
+  <i class="fa-solid fa-envelope"></i>
+  <span>Contacto</span>
+</a>
+</footer>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</body>
+</html>
